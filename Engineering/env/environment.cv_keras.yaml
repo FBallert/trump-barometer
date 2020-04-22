@@ -1,0 +1,25 @@
+name: cv_keras
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7.3
+  - jupyterlab
+  - pandas
+  - pip
+  - keras
+  - seaborn
+  - matplotlib=3.1.1
+  - scikit-learn
+  - scikit-image
+  - pillow
+  - imageio
+  - tqdm
+  - imgaug
+  - pip:
+    - pipdate
+    - opencv-python-headless
+    - pytesseract==0.2.7
+    - image-classifiers
+    - nmslib==v1.7.3.6
+    # - pip install -e .../Parts2GA_R2/src/python
